@@ -1,0 +1,43 @@
+/* #brand_vis */
+	#brand_vis {text-align:center;padding-top:140px}
+	#brand_vis img {width:100%;}
+	#brand_vis h1 {color:#b31000;margin-top:50px;font-size:1.5em;background:rgba(179,16,0,0.2)}
+	#brand_vis p {font-size:1em;line-height:1.3em;padding-top:50px;}
+	#brand_vis .brand {width:100%;padding-top:50px;}
+/* .tab_wrap */
+	#cont1,#cont2,#cont3 {display:none;padding-top:10px;}
+	.tab-wrap {padding-top:50px;text-align:center}
+	#tab1,#tab2,#tab3 {display: none} /*라디오버튼 숨김. 1개씩만 선택해서 보여야되기때문에 radiobox. checkbox는 안됨 input을 display:none해서 label만보이는 상태*/  
+	.tab-wrap label {border-radius:50%;cursor: pointer;display:inline-block;padding:15px 25px;font-weight:600;text-align:center;background-color:rgba(179,16,0);color:#fff;}
+	.tab-wrap input:checked + label {color:#fff;background-color:#331100;box-sizing:border-box;}
+	#tab1:checked ~ #cont1, #tab2:checked ~ #cont2, #tab3:checked ~ #cont3 {display: block;}
+/* cont1 */
+strong {color:#b31000}
+.pum {width:320px;margin:0 auto;}
+.pum h2 {text-align:center;font-size:1.3em;color:#b31000;}
+.pum:after {content:'';display:block;clear:both;border-bottom:1px solid #b31000}
+.pum .pic {width:140px;height:198px;box-sizing:border-box;padding:10px;float:left;vertical-align:center}
+.pic img {width:100%;-webkit-border-radius:50%;border-radius:50%;box-shadow:5px 5px 10px rgba(0,0,0,0.3);margin-top:10px}
+.pic p {font-size:1em;color:#331100;text-align:center;font-weight:600;margin-top:10px}
+.pum .info {margin-top:-5px;width:180px;height:198px;box-sizing:border-box;padding:10px;float:right}
+.pum .info p {padding-top:10px;font-size:1em;text-align:justify}
+/* cont2 */
+#cont2 h2 {text-align:center;font-size:1.3em;color:#b31000;padding:10px 0;}
+#cont2 p {font-size:1em;padding:10px}
+#cont2 img {width:100%}
+#cont2 img.gumae, #cont3 img.gumae {width:30%;margin-top:50px}
+#cont2:after {content:'';display:block;clear:both}
+/* cont3 */
+#cont3 img {width:100%}
+#cont3 h2 {text-align:center;font-size:1.3em;color:#b31000;padding:10px 0;}
+#cont3 p {font-size:1em;padding:10px;}
+/* sistem */
+#sistem h1 {text-align:center;font-size:1.5em;color:#b31000;margin:50px 0;background:rgba(179,16,0,0.2)}	
+#sistem .sis-inner {display:none}
+#sistem .sis h2 {font-size:1em;padding:15px 25px;border:1px solid #fff;border-radius:20px;font-weight:600;text-align:center;background-color:#b31000;color:#fff;}
+#sistem .sis a {display:block;color:inherit}
+#sistem .sis-inner li {margin-top:10px;text-align:center}
+#sistem .sis-inner li span {font-weight:600;color:#b31000}
+#sistem:after {content:'';display:block;clear:both}
+
+

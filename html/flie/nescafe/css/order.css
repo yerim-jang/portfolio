@@ -1,0 +1,37 @@
+#contents {padding-top:100px; width:90%; margin:0 auto}
+
+#contents h1 {font-size:23px}
+#contents h1 img {width:18px; height:18px}
+
+#contents form {width:100%;margin-top:-8px}
+#contents form label {font-size:16px}
+#contents form #d {float:right; margin-top:3px}
+
+#contents form #productBox {border:1px solid #ccc; margin:18px 0}
+#contents form #productBox .button {width:90%; margin:0 auto; height:47px; border-bottom:1px solid #ccc}
+#contents form #productBox .button #p_del {float:right; margin-top:13px}
+
+#contents form #productBox .product {width:90%; margin:0 auto; position:relative}
+#contents form #productBox .product input[type=checkbox] {position:absolute; top:20px}
+#contents form #productBox .product input[type=image] {margin-left:15px}
+#contents form #productBox .product label {font-size:20px; font-weight:600; position:absolute; top:15px; left:140px}
+#contents form #productBox .product p {position:absolute; left:140px; top:50px; font-size:13px}
+#contents form #productBox .product .price {font-size:15px; color:#b31000; font-weight:bold; position:absolute; top:75px; left:140px}
+
+#contents form h4 {padding:10px 0; border-top:1px solid #ccc; border-bottom:1px solid #ccc; margin:10px 0}
+
+#contents form #customerInfo ul li:first-child {line-height:40px;}
+#contents form #customerInfo ul li input {float:right; width:70%; height:25px;vertical-align:bottom;margin-top:5px}
+
+#contents form p {font-size:15px; margin-bottom:10px}
+#contents form p span {float:right; color:#b31000}
+#contents form .total {border-top:1px dashed #ccc; padding-top:10px}
+#contents form .total span {font-weight:bold}
+
+#contents form img {width:100%}
+
+#contents form ul li {line-height:40px}
+#contents form ul li select {float:right; width:70%; height:30px; margin-top:5px}
+
+#contents form p a {margin:20px 0 -40px 0; width:100%; background:#b31000; text-align:center; font-size:22px; color:#fff; display:block; line-height:50px}
+
