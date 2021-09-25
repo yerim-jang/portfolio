@@ -1,0 +1,42 @@
+.tit {text-align:center;color:#b31000;font-size:1.5em;}
+.sub_tit {font-size:0.8em;text-align:center;padding-top:5px}
+
+#visual {width:100%; padding-top:100px}
+/* #service */
+	#service {width:100%;margin-top:70px}
+	#service ul li {padding-top:70px;float:left; width:33.33%; text-align:center}
+	#service ul li a img {width:50px; height:50px}
+	#service ul li a p {font-size:14px; margin-top:10px; color:black}
+	#service:after {content:'';display:block;clear:both}
+/* #mac  */
+	#mac {position:relative;margin-top:70px;}
+	#mac h1 {text-align:center; color:#b31000}
+	#mac ul li {width:50%;box-sizing:border-box;float:left;margin-top:70px}
+	#mac ul li img {width:100%}
+	#mac ul li:first-child {position:relative}
+	#mac ul li:nth-child(2) {position:relative}
+	#mac .left {position:absolute;left:5px;top:5px;background:#b31000;padding:5px;color:#fff}
+	.name {text-align:center;color:#444}
+	.name h3 {font-size:1em;height:30px;line-height:20px; margin:10px 0 10px 0}
+	.name span {font-size:0.8em;color:#aaa}
+	.name p {padding-top:5px;font-size:0.8em;color:#aaa}
+	.name h4 {font-size:0.8em;color:#b31000;padding:10px}
+	#mac .more {position:absolute;top:50px;right:15px;width:20px;}
+	#mac:after {content:'';clear:both;display:block;}
+/* #cap */
+	#cap {position:relative;margin-top:70px;}
+	#cap h1 {text-align:center; color:#b31000}
+	#cap ul li {width:33.33%;box-sizing:border-box;float:left;margin-top:70px}
+	#cap ul li img {width:100%}
+	#cap ul li:first-child {position:relative}
+	#cap ul li:nth-child(2) {position:relative}
+	#cap ul li:nth-child(3) {position:relative}
+	#cap .left {position:absolute;left:5px;top:5px;background:#b31000;padding:5px;color:#fff}
+	#cap .more {position:absolute;top:50px;right:15px;width:20px;}
+	#cap:after {content:'';display:block;clear:both}
+/* #sns */
+	#sns {margin-top:70px}
+	#sns ul:after {content:'';display:block;clear:both}
+	#sns ul li {float:left; width:25%; text-align:center; padding:70px 0}
+	#sns ul li a img {width:30px;}
+	#sns .sslider img {width:50%}

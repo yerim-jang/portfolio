@@ -1,0 +1,30 @@
+#contents img {width:100%}
+#contents #topBanner {padding-top:100px}
+
+
+#contents #product #machine, #capsule {padding:20px; margin:0 auto; display:none}
+#contents #product input {display:none}
+#contents #product label {width:49.5%; display:inline-block; padding:15px 0; font-weight:bold; text-align:center; box-sizing:border-box}
+#contents #product input:checked + label {color:#b31000; border-bottom:1px solid #b31000}
+#contents #product #tab2:checked ~ #machine, #tab1:checked ~ #capsule {display:block}
+
+#contents #product h3, #product p {text-align:center}
+#contents #product .serviceSubP {color:#331100; font-size:13px}
+#contents #product img {padding-top:20px}
+#contents #product span strong {color:#331100; font-size:26px}
+#contents #product .serviceInfo a {display:inline-block; background-color:#331100; color:#fff; font-size:18px; margin-left:15px; padding:5px; width:100px}
+#contents #product .price {color:#b31000; margin-top:7px}
+
+#contents #product #machine .serviceInfo {margin:30px 0 80px 0}
+#contents #product #capsule .serviceInfo {margin:30px 0 50px 0}
+
+#machine ul {width:100%; margin-top:-20px}
+#machine ul li {float:left; width:50%}
+#machine ul li a .best {color:#b31000; font-size:0.7em}
+
+#capsule ul {width:100%}
+#capsule ul li {float:left; width:33.33%}
+#capsule ul li a .c {color:#999; font-size:0.7em}
+#capsule .price {font-size:0.8em}
+
+#footBanner {padding-top:60px; margin-bottom:-50px}
