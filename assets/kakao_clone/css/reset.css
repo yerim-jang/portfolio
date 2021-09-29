@@ -11,20 +11,41 @@ table,caption,tbody,tfoot,thead,tr,th,td,
 article,aside,canvas,details,embed,
 figure,figcaption,footer,header,hgroup,
 menu,nav,output,ruby,section,summary,
-time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+time,mark,audio,video{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent
+}
 
 /* HTML5 display-role reset for older browsers */
 article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section{display:block}
-/* body{line-height:1} */
-ol,ul{list-style:none}
-blockquote,q{quotes:none}
-blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
-table{/*border-collapse:collapse;*/border-spacing:0}
-input,select{vertical-align:middle}
-
-/* added KSM */
-caption,th{text-align:left}
-hr{display:none}
-a,a:hover,a:link,a:visited,a:focus,a:active{text-decoration:none}
-button{padding:0;border:0;background:transparent;cursor:pointer;*overflow:visible}
+footer,header,hgroup,menu,nav,section{
+    display:block
+}
+ol,ul{
+    list-style:none
+}
+table{
+    border-collapse:collapse;
+    border-spacing:0;
+}
+input,select{
+    vertical-align:middle;
+}
+caption,th{
+    text-align:left;
+}
+a,a:hover,a:link,a:visited,a:focus,a:active{
+    text-decoration:none;
+}
+button{
+    padding:0;
+    border:0;
+    background:transparent;
+    cursor:pointer;
+    overflow:visible
+}

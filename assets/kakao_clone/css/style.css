@@ -1,0 +1,69 @@
+/* style_css */
+#wrap{
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+}
+#wrap > div .inner{
+    width: 1240px;
+    margin: 0 auto;
+}
+/* header */
+#header{
+    position: relative;
+    width: 100%;
+    height: 89px;
+    margin: 0 auto;
+    z-index: 1;
+}
+#header > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+#header > div .logo{
+    width: 100px;
+    height: 30px;
+}
+#header > div .logo img{
+    width: 100%;
+}
+#header > div .gnb{
+    display: inline-block;
+}
+#header > div .gnb .gnb-list{
+    display: flex;
+}
+#header > div .gnb .gnb-list .gnb-item{
+    margin:0 32px;
+    font-size: 16px;
+}
+#header > div .gnb .gnb-list .gnb-item a{
+    color:#fff
+}
+/* main */
+#main{
+    position: relative;
+    width: 100%;
+    height: 937px;
+    min-height: 940px;
+    background: url(../img/main_bg.png)no-repeat;
+    background-size: cover;
+    margin-top: -90px;
+    color:#fff;
+    padding-top: 100px;
+}
+#main::before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+#main .kakao-info{
+    text-align: center;
+}
