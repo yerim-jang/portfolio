@@ -1020,7 +1020,7 @@ section .container {
   bottom: 0;
   padding: 15px;
   text-align: right;
-  font-size: 13px;
+  font-size: 11px;
   color: #fff;
   z-index: 999999;
 }
