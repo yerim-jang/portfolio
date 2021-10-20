@@ -1,0 +1,57 @@
+/* style_css */
+/* wrap */
+#wrap{
+    width: 100%;
+}
+/* header */
+.header{
+    position: fixed;
+    width: 100%;
+    height: 43px;
+    margin: 0 auto;
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    z-index: 99;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+.header .inner-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1600px;
+    height: 100%;
+    margin: 0 auto;
+}
+.header .inner-wrap .logo{
+    margin-left: 20px;
+}
+.header .inner-wrap .gnb{
+    width: 600px;
+}
+.header .inner-wrap .gnb .gnb-list{
+    display: flex;
+    justify-content: space-between;
+}
+.header .inner-wrap .gnb .gnb-list .gnb-item{
+    width: 120px;
+    height: 37px;
+    line-height: 39px;
+    margin: 0 15px;
+    text-align: center;
+}
+.header .inner-wrap .gnb .gnb-list .gnb-item a{
+    display: block;
+    font-size: 1rem;
+    color: #000;
+    cursor: pointer;
+}
+.header .inner-wrap .riderpage{
+    margin-right: 20px;
+}
+.header .inner-wrap .riderpage .rider-btn{
+    padding-top: 9px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color:#05cd82;
+}

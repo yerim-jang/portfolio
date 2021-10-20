@@ -1,0 +1,40 @@
+/* common_css */
+.clear-fix {
+    display: block;
+    clear: both;
+    content: " ";
+    display: inline-table;
+}
+
+.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.scrollable {
+    overflow-y: auto;
+}
+
+.cursor {
+    cursor: pointer !important;
+}
+.vr-color{
+    color: #05cd82;
+}
+/* button */
+.btn {
+    width: auto;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    font-weight: 200;
+    border: none;
+    border-radius: 1rem;
+    transition: box-shadow 0.5s ease 0s;
+    background-color: #eee;
+    color: #000;
+    cursor: pointer;
+}
+.btn:hover{
+    box-shadow: #777 0px 2px 10px;
+}
