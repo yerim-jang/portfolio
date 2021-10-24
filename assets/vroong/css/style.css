@@ -50,8 +50,38 @@
     margin-right: 20px;
 }
 .header .inner-wrap .riderpage .rider-btn{
-    padding-top: 9px;
+    /* padding-top: 9px; */
     font-size: 0.9rem;
     font-weight: 400;
     color:#05cd82;
+}
+/* main */
+.main{
+    position: relative;
+    min-height: 900px;
+    height: 100vh;
+}
+.main .bg-wrap img{
+    position: absolute;
+    right: 41%;
+    top: 0;
+    width: auto;
+    height: 100%;
+    z-index: -1;
+}
+.main .cont-wrap{
+    position: absolute;
+    top: 43%;
+}
+.main .cont-wrap .main-tit{
+    font-size: 3rem;
+    font-weight: 200;
+    letter-spacing: -0.05rem;
+    text-align: right;
+}
+.main .cont-wrap .main-tit .owner{
+    font-weight: 500;
+}
+.main .cont-wrap .main-tit .delivery{
+    font-weight: 500;
 }
