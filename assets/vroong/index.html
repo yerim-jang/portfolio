@@ -8,6 +8,8 @@
     <link type="text/css" href="../vroong/css/common.css" rel="stylesheet" />
     <link type="text/css" href="../vroong/css/reset.css" rel="stylesheet" />
     <link type="text/css" href="../vroong/css/style.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="../vroong/img/vroong.ico" type="image/x-icon">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@mdi/font@6.4.95/css/materialdesignicons.min.css">
 	<script type="text/javascript" src="/asset/js/jquery-1.12.4.min.js"></script>
 </head>
 <body>
@@ -54,164 +56,162 @@
                 <div class="info-wrap">
                     <div class="info">
                         <!-- 상담문의 탭 -->
-                        <div class="top-box">
-                            <div class="">
-                                <p class="title">상담문의</p>
-                                <ul class="tab-list">
-                                    <li class="tab-item on">상점</li>
-                                    <li class="tab-item">기업</li>
-                                </ul>
-                                <span class="desc store">개인상점 혹은 프랜차이즈 가맹점이신가요? 지금 바로 문의하세요!</span>
-                            </div>
-                            <!-- 상점일 때 노출 -->
-                            <div class="tab-box store">
-                                <div class="item-list">
-                                    <div class="left-item">
-                                        <div class="line">
-                                            <input type="text" placeholder="매장명">
-                                        </div>
-                                    </div>
-                                    <div class="right-item">
-                                        <div class="line category">
-                                            카테고리
-                                            <span class="arrow cate-arrow"></span>
-                                            <ul class="option-list">
-                                                <li class="option-item">카테고리</li>
-                                                <li class="option-item">한식</li>
-                                                <li class="option-item">분식</li>
-                                                <li class="option-item">카페/디저트</li>
-                                                <li class="option-item">돈까스/회/일식</li>
-                                                <li class="option-item">치킨</li>
-                                                <li class="option-item">피자</li>
-                                                <li class="option-item">아시안/양식</li>
-                                                <li class="option-item">중국집</li>
-                                                <li class="option-item">족발/보쌈</li>
-                                                <li class="option-item">야식</li>
-                                                <li class="option-item">찜/탕</li>
-                                                <li class="option-item">도시락</li>
-                                            </ul>
-                                        </div>
-                                        <div class="line">
-                                            서울
-                                            <span class="arrow city1-arrow"></span>
-                                            <ul class="option-list">
-                                                <li class="option-item">강원</li>
-                                                <li class="option-item">경기</li>
-                                                <li class="option-item">경남</li>
-                                                <li class="option-item">경북</li>
-                                                <li class="option-item">광주</li>
-                                                <li class="option-item">대구</li>
-                                                <li class="option-item">대전</li>
-                                                <li class="option-item">부산</li>
-                                                <li class="option-item">서울</li>
-                                                <li class="option-item">세종</li>
-                                                <li class="option-item">울산</li>
-                                                <li class="option-item">인천</li>
-                                                <li class="option-item">전남</li>
-                                                <li class="option-item">전북</li>
-                                                <li class="option-item">제주</li>
-                                                <li class="option-item">충남</li>
-                                                <li class="option-item">충북</li>
-                                            </ul>
-                                        </div>
-                                        <div class="line">
-                                            시/군/구
-                                            <span class="arrow city2-arrow"></span>
-                                            <ul class="option-list">
-                                                <li class="option-item">강남구</li>
-                                                <li class="option-item">강동구</li>
-                                                <li class="option-item">강북구</li>
-                                                <li class="option-item">강서구</li>
-                                                <li class="option-item">관악구</li>
-                                                <li class="option-item">광진구</li>
-                                                <li class="option-item">구로구</li>
-                                                <li class="option-item">금천구</li>
-                                                <li class="option-item">노원구</li>
-                                                <li class="option-item">도봉구</li>
-                                                <li class="option-item">동대문구</li>
-                                                <li class="option-item">동작구</li>
-                                            </ul>
-                                        </div>
-                                        <div class="line">
-                                            읍/면/동
-                                            <span class="arrow city3-arrow"></span>
-                                            <ul class="option-list">
-                                                <li class="option-item">개포동</li>
-                                                <li class="option-item">논현동</li>
-                                                <li class="option-item">대치동</li>
-                                                <li class="option-item">도곡동</li>
-                                                <li class="option-item">삼성동</li>
-                                                <li class="option-item">세곡동</li>
-                                                <li class="option-item">수서동</li>
-                                                <li class="option-item">신사동</li>
-                                                <li class="option-item">압구정동</li>
-                                                <li class="option-item">역삼동</li>
-                                                <li class="option-item">율현동</li>
-                                                <li class="option-item">일원동</li>
-                                                <li class="option-item">자곡동</li>
-                                                <li class="option-item">청담동</li>
-                                            </ul>
-                                        </div>
+                        <div class="top">
+                            <p class="title">상담문의</p>
+                            <ul class="tab-list">
+                                <li class="tab-item on">상점</li>
+                                <li class="tab-item">기업</li>
+                            </ul>
+                            <span class="desc store">개인상점 혹은 프랜차이즈 가맹점이신가요? 지금 바로 문의하세요!</span>
+                        </div>
+                        <!-- 상점일 때 노출 -->
+                        <div class="tab-box store">
+                            <div class="item-list">
+                                <div class="left-item">
+                                    <div class="line">
+                                        <input type="text" placeholder="매장명">
                                     </div>
                                 </div>
-                                <div class="item-list">
-                                    <div class="left-item">
-                                        <div class="line">
-                                            <input type="text" placeholder="이름">
-                                        </div>
-                                        <div class="line">
-                                            <input type="text" placeholder="휴대전화(숫자만 입력)">
-                                        </div>
+                                <div class="right-item">
+                                    <div class="line category">
+                                        카테고리
+                                        <span class="arrow cate-arrow"></span>
+                                        <ul class="option-list">
+                                            <li class="option-item">카테고리</li>
+                                            <li class="option-item">한식</li>
+                                            <li class="option-item">분식</li>
+                                            <li class="option-item">카페/디저트</li>
+                                            <li class="option-item">돈까스/회/일식</li>
+                                            <li class="option-item">치킨</li>
+                                            <li class="option-item">피자</li>
+                                            <li class="option-item">아시안/양식</li>
+                                            <li class="option-item">중국집</li>
+                                            <li class="option-item">족발/보쌈</li>
+                                            <li class="option-item">야식</li>
+                                            <li class="option-item">찜/탕</li>
+                                            <li class="option-item">도시락</li>
+                                        </ul>
                                     </div>
-                                    <div class="right-item">
-                                        <div class="iine">
-                                            현재 배달여부
-                                            <div class="check">
-                                                <input class="custom-input" type="checkbox">
-                                                <label class="check-type" for="">사용</label>
-                                                <input class="custom-input" type="checkbox">
-                                                <label class="check-type" for="">미사용</label>
-                                            </div>
-                                        </div>
-                                        <div class="line">
-                                            하루 예상 물량
-                                            <span class="arrow day-arrow"></span>
-                                            <ul class="option-list">
-                                                <li class="option-item">하루 예상 물량</li>
-                                                <li class="option-item">알 수 없음</li>
-                                                <li class="option-item">0 ~ 10건 미만</li>
-                                                <li class="option-item">10 ~ 20건 미만</li>
-                                                <li class="option-item">20 ~ 30건 미만</li>
-                                                <li class="option-item">30건 이상</li>
-                                            </ul>
-                                        </div>
+                                    <div class="line">
+                                        서울
+                                        <span class="arrow city1-arrow"></span>
+                                        <ul class="option-list">
+                                            <li class="option-item">강원</li>
+                                            <li class="option-item">경기</li>
+                                            <li class="option-item">경남</li>
+                                            <li class="option-item">경북</li>
+                                            <li class="option-item">광주</li>
+                                            <li class="option-item">대구</li>
+                                            <li class="option-item">대전</li>
+                                            <li class="option-item">부산</li>
+                                            <li class="option-item">서울</li>
+                                            <li class="option-item">세종</li>
+                                            <li class="option-item">울산</li>
+                                            <li class="option-item">인천</li>
+                                            <li class="option-item">전남</li>
+                                            <li class="option-item">전북</li>
+                                            <li class="option-item">제주</li>
+                                            <li class="option-item">충남</li>
+                                            <li class="option-item">충북</li>
+                                        </ul>
                                     </div>
-                                </div>
-                                <div class="item-list">
-                                    <div class="left-item">
-                                        <div class="line">
-                                            <input type="text" placeholder="이메일">
-                                        </div>
+                                    <div class="line">
+                                        시/군/구
+                                        <span class="arrow city2-arrow"></span>
+                                        <ul class="option-list">
+                                            <li class="option-item">강남구</li>
+                                            <li class="option-item">강동구</li>
+                                            <li class="option-item">강북구</li>
+                                            <li class="option-item">강서구</li>
+                                            <li class="option-item">관악구</li>
+                                            <li class="option-item">광진구</li>
+                                            <li class="option-item">구로구</li>
+                                            <li class="option-item">금천구</li>
+                                            <li class="option-item">노원구</li>
+                                            <li class="option-item">도봉구</li>
+                                            <li class="option-item">동대문구</li>
+                                            <li class="option-item">동작구</li>
+                                        </ul>
                                     </div>
-                                    <div class="right-item">
-                                        <div class="agree-box">
-                                            <input class="custom-input" type="checkbox" checked>
-                                            <label class="check-type" for="">개인정보 수집 및 이용 동의</label>
-                                        </div>
-                                        <span>필수</span>
-                                        <button class="btn">내용보기</button>
+                                    <div class="line">
+                                        읍/면/동
+                                        <span class="arrow city3-arrow"></span>
+                                        <ul class="option-list">
+                                            <li class="option-item">개포동</li>
+                                            <li class="option-item">논현동</li>
+                                            <li class="option-item">대치동</li>
+                                            <li class="option-item">도곡동</li>
+                                            <li class="option-item">삼성동</li>
+                                            <li class="option-item">세곡동</li>
+                                            <li class="option-item">수서동</li>
+                                            <li class="option-item">신사동</li>
+                                            <li class="option-item">압구정동</li>
+                                            <li class="option-item">역삼동</li>
+                                            <li class="option-item">율현동</li>
+                                            <li class="option-item">일원동</li>
+                                            <li class="option-item">자곡동</li>
+                                            <li class="option-item">청담동</li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
-                            <!-- 기업일 때 노출 -->
-                            <div class="tab-box enter">
+                            <div class="item-list">
+                                <div class="left-item">
+                                    <div class="line">
+                                        <input type="text" placeholder="이름">
+                                    </div>
+                                    <div class="line">
+                                        <input type="text" placeholder="휴대전화(숫자만 입력)">
+                                    </div>
+                                </div>
+                                <div class="right-item">
+                                    <div class="iine">
+                                        현재 배달여부
+                                        <div class="check">
+                                            <input class="custom-input" type="checkbox">
+                                            <label class="check-type" for="">사용</label>
+                                            <input class="custom-input" type="checkbox">
+                                            <label class="check-type" for="">미사용</label>
+                                        </div>
+                                    </div>
+                                    <div class="line">
+                                        하루 예상 물량
+                                        <span class="arrow day-arrow"></span>
+                                        <ul class="option-list">
+                                            <li class="option-item">하루 예상 물량</li>
+                                            <li class="option-item">알 수 없음</li>
+                                            <li class="option-item">0 ~ 10건 미만</li>
+                                            <li class="option-item">10 ~ 20건 미만</li>
+                                            <li class="option-item">20 ~ 30건 미만</li>
+                                            <li class="option-item">30건 이상</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-list">
+                                <div class="left-item">
+                                    <div class="line">
+                                        <input type="text" placeholder="이메일">
+                                    </div>
+                                </div>
+                                <div class="right-item">
+                                    <div class="agree-box">
+                                        <input class="custom-input" type="checkbox" checked>
+                                        <label class="check-type" for="">개인정보 수집 및 이용 동의</label>
+                                    </div>
+                                    <span>필수</span>
+                                    <button class="btn">내용보기</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 기업일 때 노출 -->
+                        <div class="tab-box enter">
 
-                            </div>
                         </div>
                         <!-- // 상담문의 탭 -->
                     </div>
                     <div class="info-btn">
-                        <a href="#">문의하기</a>
+                        <a href="#">문의하기 ></a>
                     </div>
                 </div>
             </div>

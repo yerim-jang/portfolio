@@ -38,3 +38,7 @@
 .btn:hover{
     box-shadow: #777 0px 2px 10px;
 }
+/* icon */
+.mdi{
+    display: inline-block;
+}
