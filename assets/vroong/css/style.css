@@ -24,14 +24,14 @@
     margin: 0 auto;
 }
 .header .inner-wrap .logo{
-    margin-left: 20px;
+    margin-left: 13px;
 }
 .header .inner-wrap .gnb{
     width: 600px;
+    margin-left: 64px;
 }
 .header .inner-wrap .gnb .gnb-list{
     display: flex;
-    justify-content: space-between;
 }
 .header .inner-wrap .gnb .gnb-list .gnb-item{
     width: 120px;
@@ -39,6 +39,12 @@
     line-height: 39px;
     margin: 0 15px;
     text-align: center;
+}
+.header .inner-wrap .gnb .gnb-list .gnb-item:first-child{
+    margin-left: 0;
+}
+.header .inner-wrap .gnb .gnb-list .gnb-item:last-child{
+    margin-right: 0;
 }
 .header .inner-wrap .gnb .gnb-list .gnb-item a{
     display: block;
@@ -50,7 +56,6 @@
     margin-right: 20px;
 }
 .header .inner-wrap .riderpage .rider-btn{
-    /* padding-top: 9px; */
     font-size: 0.9rem;
     font-weight: 400;
     color:#05cd82;
@@ -66,7 +71,7 @@
     right: 41%;
     top: 0;
     width: auto;
-    /* height: 100%; */
+    height: 100%;
     z-index: -1;
 }
 .main .cont-wrap{
@@ -75,13 +80,14 @@
 }
 .main .main-tit{
     position: absolute;
-    top: 50%;
-    right: 25%;
-    transform: translateY(-50%);
+    top: 51%;
+    right: 26%;
+    line-height: 70px;
+    text-align: right;
     font-size: 3rem;
     font-weight: 200;
     letter-spacing: -0.05rem;
-    text-align: right;
+    transform: translateY(-50%);
 }
 .main .main-tit .owner{
     font-weight: 500;
@@ -91,7 +97,7 @@
 }
 .main .info-wrap{
     position: absolute;
-    bottom: 0;
+    bottom: 3%;
     left: 50%;
     transform: translateX(-50%);
     width: 1000px;
@@ -113,7 +119,6 @@
 .main .info-wrap .top{
     display: flex;
     align-items: end;
-    /* margin-bottom: ; */
 }
 .main .info-wrap .top .title{
     font-size: 1.3rem;
@@ -146,17 +151,26 @@
 }
 .main .info-wrap .tab-box .item-list{
     width: 100%;
-    float: left;
+    display:flex;
 }
-.main .info-wrap .tab-box .item-list> div{
+/* .main .info-wrap .tab-box .item-list> div{
     float: left;
-}
+} */
 .main .info-wrap .tab-box .item-list .left-item,
 .main .info-wrap .tab-box .item-list .right-item{
     display: flex;
 }
 .main .info-wrap .tab-box .item-list .left-item{
+    width: 30%;
     margin-right: 40px;
+}
+.main .info-wrap .tab-box .item-list .left-item input{
+    width: 100%;
+    border: none;
+    padding: 5px;
+}
+.main .info-wrap .tab-box .item-list .left-item input::placeholder{
+    color: grey;
 }
 .main .info-wrap .info-btn{
     position: absolute;
