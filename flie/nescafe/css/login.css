@@ -1,0 +1,64 @@
+/*#contents_login 콘텐츠*/
+.loginPage,#contents_member {display:none;}/*내용콘텐츠 없앰*/
+#contents_login {width:100%;padding-top:110px;position:relative;}
+
+/*#contents_login tab*/
+#contents_login input#tabb1 {display:none;}
+/*체크하는 동그라미 라디오 버튼 없애주는 것,input을 display:none해서 label만보이는 상태*/
+#contents_login input#tabb2 {display:none;}
+
+#contents_login .loginPage {box-sizing:border-box;border:1px solid #331100}
+#contents_login label.tav {border-radius:10px 10px 0 0;cursor:pointer;display:inline-block;
+padding:15px 25px;font-weight:600;text-align:center;background:#b31000;color:#fff;}
+#contents_login input#tabb1:checked + label.tav {background-color:rgba(179,16,0,0.7)}
+#contents_login input#tabb2:checked + label.tav {background-color:rgba(179,16,0,0.7)}
+#tabb1:checked ~ .loginPage, #tabb2:checked ~ #contents_member {display:block;}
+#contents_login .loginPage h4 {margin-left:20px;padding-top:30px;text-align:center;font-weight:400}
+/*inputText*/
+#contents_login .loginPage .inputText {text-align:center;padding:20px;}
+#contents_login .loginPage .inputText .id input {width:70%;box-sizing:border-box;border:1px solid #331100;background:#fff;padding:10px 0;
+font-size:15px;font-weight:bold;margin-bottom:20px;}
+#contents_login .loginPage .inputText .pw input {width:70%;box-sizing:border-box;border:1px solid #331100;background:#fff;padding:10px 0;
+font-size:15px;font-weight:bold;margin-bottom:5px;}
+#contents_login .loginPage {text-align:center;}
+#contents_login .loginPage .idsave input {margin-top:10px;margin-bottom:20px;}
+
+
+.loginPage .snslogin li {margin:0 auto;width:100%}
+.loginPage .snslogin li a {display:block}
+.loginPage .snslogin li a img {width:90%}
+
+
+#contents_login .loginPage .inputBtn {width:94%;margin:0 auto;padding-top:5px;padding-bottom:10px;}
+#contents_login .loginPage .inputBtn input {width:94%;box-sizing:border-box;border:1px solid #331100;background:#b31000;padding:10px 0;
+color:#fff;font-size:15px;font-weight:bold;cursor:pointer;}
+
+#contents_login .loginPage .idSearch {padding-top:5px;padding-bottom:40px;}
+
+#contents_login .loginPage .idSearch a {display:block;width:88%;margin:0 auto;margin-bottom:10px;
+box-sizing:border-box;border:1px solid #b31000;color:#b31000;font-size:15px;font-weight:bold;padding:10px 0;}
+
+/*contents_member*/
+.blind {display:none;}
+#contents_member {background:#fff;width:100%;padding-bottom:5%;box-sizing:border-box;border:1px solid #331100;
+font-family:'Noto Sans';}
+
+#contents_member h1 {width:50%;margin:0 auto;padding:20px 0 20px 0;color:#331100;
+font-family:'Noto Sans';font-size:30px;text-align:center;text-transform:uppercase;}
+
+#contents_member form tbody th {width:30%;padding:5px 0;font-size:13px;color:#331100;}
+#contents_member form tbody td {width:70%;}
+input[type=radio] {vertical-align:middle}
+#contents_member form tbody td label {font-size:13px;line-height:13px}
+#contents_member form tbody td p {font-size:13px;}
+#contents_member form {width:90%;padding-top:20px;margin:0 auto;margin-bottom:50px;border:1px dashed #331100;}
+#contents_member form table {width:100%;}
+#contents_member table tr #idCheck {display:block;margin-left:35px;height:25px;background:#eee;border:1px solid #ddd;}
+#contents_member td {width:70%;padding:5px 0;padding-left:10px;text-align:left}
+#contents_member form tbody select {height:24px;line-height:24px}
+#contents_member #confirm {text-align:center;padding:10px 0;margin:20px 0 20px;}
+#contents_member #confirm input:first-child {width:20%;margin:5px;padding:5px 0;border:1px solid #b31000;
+background:#b31000;color:#fff;font-size:15px;font-weight:bold;cursor:pointer}
+#contents_member #confirm input:last-child {width:20%;margin:5px;padding:5px 0;border:1px solid #331100;
+background:#fff;color:#331100;font-size:15px;font-weight:bold;cursor:pointer}
+.input_box {width:80%;height:25px}

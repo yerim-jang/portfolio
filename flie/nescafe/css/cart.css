@@ -1,0 +1,52 @@
+﻿#contents {padding-top:100px; width:90%; margin:0 auto}
+
+#contents h1 {font-size:23px}
+#contents h1 img {width:18px; height:18px}
+
+#contents form {width:100%;margin-top:-8px}
+#contents form label {font-size:16px}
+#contents form #d {float:right; margin-top:3px}
+
+#contents form #productBox {border:1px solid #ccc; margin:18px 0}
+#contents form #productBox .button {width:90%; margin:0 auto; height:47px; border-bottom:1px solid #ccc}
+#contents form #productBox .button #p_del {float:right; margin-top:13px}
+
+#contents form #productBox .product {width:90%; margin:0 auto; position:relative}
+#contents form #productBox .product input[type=checkbox] {position:absolute; top:20px;}
+#contents form #productBox .product input[type=image] {margin-left:15px}
+#contents form #productBox .product #black {font-size:20px; font-weight:600; position:absolute; top:15px; left:140px}
+#contents form #productBox .product p {position:absolute; left:140px; top:50px; font-size:13px}
+#contents form #productBox .product .price {font-size:15px; color:#b31000; font-weight:bold; position:absolute; top:75px; left:140px}
+
+#contents form p {font-size:15px; margin-bottom:10px}
+#contents form p span {float:right; color:#b31000}
+#contents form .total {border-top:1px solid #ccc; margin-top:10px; padding-top:10px}
+
+#contents form a {width:49%; display:inline-block; margin:20px 0}
+#contents form a img {width:100%}
+
+#contents form #npay {text-align:center; margin-bottom:-20px}
+
+/* form input[type=checkbox] {-webkit-appearance:none;appearance:none;background:url(../img/check_off.png)} no-repeat;
+background-position: center center;background-size:18px 18px
+
+
+
+form input[type="checkbox"] + label {padding-left:20px;background:url(../img/check_off.png) no-repeat;background-position:0 5px;background-size:18px 18px }
+form input[type="checkbox"]:checked + label {background:url(../img/check_on.png) no-repeat;background-position:0 5px;background-size:18px 18px }
+#check_pre {background:url(../img/check_off.png) no-repeat;background-position:0 5px;background-size:18px 18px }
+ 
+checkbox-wrap .check-icon  { display: inline-block; width: 18px; height: 18px; 
+					background: url(../img/agreement-check-out.png) left center no-repeat; vertical-align: middle; transition-duration: .3s; }
+.checkbox-wrap input[type=checkbox] { display: none; }
+.checkbox-wrap input[type=checkbox]:checked + .check-icon { background-image: url(../img/agreement-check-in.png); }
+
+html
+<label class="checkbox-wrap"><input type="checkbox" name="" value=""><i class="check-icon"></i></label>
+
+
+input[type="checkbox"] {display: none;}
+input[type="checkbox"] + label {
+display: inline-block; width:17px; height: 17px; background: #fa3062;
+cursor: pointer; border-radius: 3px;float: right;} */
+ 
