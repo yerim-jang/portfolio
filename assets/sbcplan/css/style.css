@@ -1,1 +1,59 @@
-/*  */
+/* wrap */
+.wrap{
+    position: relative;
+    width: 100%;
+}
+.wrap .inner{
+   max-width: 1500px;
+   margin: 0 auto;
+}
+
+/* header */
+.header{
+    width: 100%;
+    height: auto;
+}
+.header .top-menu{
+    width: 100%;
+}
+.header .top-menu ul{
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+    line-height: 40px;
+}
+.header .top-menu ul li{
+    flex: 1;
+    text-align: center;
+    background: #374548;
+}
+.header .top-menu ul li a{
+    display: block;
+    font-size: 14px;
+    color: #d1d3d4;
+}
+.header .top-menu ul li.on{
+    background: #fff;
+}
+.header .top-menu ul li.on a{
+    color: #222;
+}
+.header .inner{
+    width: 1500px;
+    height: 100px;
+}
+.header .inner .logo{
+    float: left;
+    width: 127px;
+    margin-top: 27px;
+}
+.header .inner .logo a{
+    display: block;
+}
+.header .inner .logo img{
+    width: 127px;
+}
+/* gnb */
+.sub-menu{
+    display: none;
+}

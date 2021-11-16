@@ -53,6 +53,20 @@ button{
 }
 
 /* common_css */
+.skip-nav{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.skip-nav a{
+    display: block;
+    width: 1px;
+    height: 1px;
+    font-size: 0;
+    overflow: hidden;
+}
 .clear-fix {
     display: block;
     clear: both;
