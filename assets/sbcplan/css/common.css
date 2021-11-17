@@ -1,0 +1,5 @@
+/* common icon */
+.ico-float{
+    display: inline-block;
+    background: url(../img/ico_floating.png)no-repeat;
+}
