@@ -1,5 +1,17 @@
 /* common icon */
-.ico-float{
+.ico{
     display: inline-block;
+}
+.ico-float{
     background: url(../img/ico_floating.png)no-repeat;
+}
+.ico_main_bg{
+    background: url(../img/main_bg_set.png)no-repeat;
+}
+
+/* radio */
+.custom-radio::before{
+    display: inline-block;
+    content: " ";
+    background: url(../img/main_bg_set.png)no-repeat;
 }
