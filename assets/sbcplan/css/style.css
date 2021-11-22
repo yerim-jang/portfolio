@@ -6,7 +6,7 @@
     letter-spacing: -.06em;
 }
 .wrap .inner{
-   max-width: 1500px;
+   width: 1200px;
    margin: 0 auto;
 }
 .wrap .inner h3{
@@ -278,6 +278,7 @@
     width: 700px;
     margin: auto;
     box-sizing: border-box;
+    overflow: hidden;
 }
 .question .tab-wrap .tab-menu ul{
     width:100%;
@@ -304,6 +305,8 @@
 .question .tab-wrap .tab-menu ul .tab-item:last-child a{
     float: right;
 }
+.question .tab-wrap .tab-menu ul .tab-item.on
+{}
 .question .tab-wrap .tab-menu ul .tab-item.on a{
     background-color: #353b30;
     border-color: #353b30;
@@ -312,3 +315,68 @@
     opacity: 1;
     z-index: 2;
 }
+.question .tab-wrap .tab-cont{
+    position: relative;
+    margin-top: 40px;
+    padding: 0 100px 60px;
+    color: #fff;
+    background:url('../img/bg_tab_con_pc01.png') no-repeat 100% 0;
+    background-color: #8fce55 ;
+}
+.question .tab-wrap .month-cont{
+    display: none;
+}
+.question .tab-wrap .tab-cont::after{
+    position: absolute;
+    content: ' ';
+    width: 267px;
+    height: 193px;
+    top: 50%;
+    right: 100px;
+    transform: translateY(-50%);
+    background: url(../img/main_bg_set.png)no-repeat 0 -150px;
+}
+.question .tab-wrap .month-cont::after{
+    width: 268px;
+    height: 180px;
+    background: url(../img/main_bg_set.png)no-repeat -336px -150px;
+}
+.question .tab-wrap .tab-cont .tc-tit{
+    padding-top: 60px;
+    font-size: 40px;
+    font-weight: 500;
+}
+.question .tab-wrap .tab-cont .tc-txt{
+    margin-top: 30px;
+    font-size: 30px;
+    line-height: 44px;
+}
+.question .tab-wrap .tab-cont ul{
+    margin-top: 18px;
+    display: flex;
+}
+.question .tab-wrap .tab-cont ul li{
+    height: 35px;
+    margin-right: 10px;
+    padding: 0 20px;
+    line-height: 33px;
+    background: rgba(34, 34, 34, .2);
+    border-radius: 35px;
+    cursor: default;
+}
+.question .tab-wrap .tab-cont .btn-box{
+    margin-top: 50px;
+}
+.question .tab-wrap .tab-cont .tc-btn{
+    width: 170px;
+    height: 45px;
+    font-size: 16px;
+    color: #fff;
+    border:1px solid #fff;
+    box-sizing: border-box;
+}
+.question .tab-wrap .tab-cont .tc-btn.now{
+    border-color:#353b30;
+    background: #353b30;
+}
+

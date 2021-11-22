@@ -12,6 +12,6 @@
 /* radio */
 .custom-radio::before{
     display: inline-block;
-    content: " ";
+    content: ' ';
     background: url(../img/main_bg_set.png)no-repeat;
 }

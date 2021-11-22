@@ -70,7 +70,7 @@ button{
 .clear-fix {
     display: block;
     clear: both;
-    content: " ";
+    content: ' ';
     display: inline-table;
 }
 
