@@ -259,15 +259,15 @@
                 <div class="tab-wrap">
                     <div class="tab-menu">
                         <ul>
-                            <li class="tab-item year on">
-                                <a href="#">5년 이상 재직한다면</a>
+                            <li class="tab-item on">
+                                <a href="#!">5년 이상 재직한다면</a>
                             </li>
-                            <li class="tab-item month">
-                                <a href="#">6개월 이상 재직자라면</a>
+                            <li class="tab-item">
+                                <a href="#!">6개월 이상 재직자라면</a>
                             </li>
                         </ul>
                     </div>
-                    <div class="tab-cont year-cont">
+                    <div class="tab-cont on">
                         <p class="tc-tit">내일채움공제</p>
                         <p class="tc-txt">
                             적립한 공제금을 5년 이상 장기 재직한 핵심<br>
@@ -284,7 +284,7 @@
                             <button class="tc-btn now">바로 신청</button>
                         </div>
                     </div>
-                    <div class="tab-cont month-cont">
+                    <div class="tab-cont">
                         <p class="tc-tit">청년재직자 내일채움공제</p>
                         <p class="tc-txt">
                             핵심 인력과 기업, 정부가 함께 적립한 공제금을<br>
@@ -308,7 +308,7 @@
                         <div class="right-box">
                             <p class="rv-name">정*현(서울, 31세)</p>
                             <span class="rv-txt">
-                                회사에서 적극 추진하는 데에 신뢰를 얻어 시작하게 되었습니다. 
+                                회사에서 적극 추진하는 데에 신뢰를 얻어 시작하게 되었습니다.<br>
                                 이제 4개월만 있으면 만기네요. 
                                 그간 꾸준히 적립하면서 경력도 더불어 쌓았습니다.
                             </span>
@@ -577,7 +577,19 @@ $(function(){
         slidesToShow: 1,
         adaptiveHeight: true,
         autoplay:true,
-        // autoplaySpeed : 10000,
+    });
+
+    //tab-menu
+    $(".tab-wrap .tab-menu li a").on("click", function(){
+        
+        const num =$(".tab-wrap .tab-menu li a").index($(this));
+
+        $(".tab-wrap .tab-menu li").removeClass("on");
+        $(".tab-wrap .tab-cont").removeClass("on");
+
+        $('.tab-wrap .tab-menu li:eq(' + num + ')').addClass("on");
+        $('.tab-wrap .tab-cont:eq(' + num + ')').addClass("on");
+
     });
 });
 </script>
